@@ -2,12 +2,12 @@
 
 ## Table of contents
 
--[Overview](#overview)
- -[The Challenge](#the-challenge)
- -[Screenshot](#screenshot)
- -[Links](#links)
--[Built with](#built-with)
--[Author](#author)
+- [Overview](#overview)
+ - [The Challenge](#the-challenge)
+ - [Screenshot](#screenshot)
+ - [Links](#links)
+- [Built with](#built-with)
+- [Author](#author)
 
 ## **Overview**
 
@@ -23,28 +23,28 @@ When I did the challenge on my own, I did it desktop-first and you can find that
  ### Screenshot
 
  1. index1.html
-  -Desktop
+  - Desktop
   ![Desktop](index1-desktop-ss.png)
 
-  -Mobile
+  - Mobile
   ![Mobile](index1-mobile-ss.png)
 
  2. index2.html
-  -Desktop
+  - Desktop
   ![Desktop](index2-desktop-ss.png)
 
-  -Mobile
+  - Mobile
   ![Mobile](index2-mobile-ss.png)
 
  ### Links
 
- -GitHub Live Site URL:
+ - GitHub Live Site URL:
   1. index1.html
    [https://keshavgulati.github.io/Flexbox-ch-04/index1.html](https://keshavgulati.github.io/Flexbox-ch-04/index1.html)
   2. index2.html
   [https://keshavgulati.github.io/Flexbox-ch-04/index2.html](https://keshavgulati.github.io/Flexbox-ch-04/index2.html)
 
- -Solution:
+ - Solution:
   1. [index1.html](index1.html), [style1.css](style1.css)
   2. [index2.html](index2.html), [style2.css](style2.css)
 
