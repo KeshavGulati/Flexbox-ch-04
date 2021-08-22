@@ -24,16 +24,20 @@ When I did the challenge on my own, I did it desktop-first and you can find that
 
  1. index1.html
   - Desktop
+  
   ![Desktop](index1-desktop-ss.png)
 
   - Mobile
+
   ![Mobile](index1-mobile-ss.png)
 
  2. index2.html
   - Desktop
+
   ![Desktop](index2-desktop-ss.png)
 
   - Mobile
+  
   ![Mobile](index2-mobile-ss.png)
 
  ### Links
