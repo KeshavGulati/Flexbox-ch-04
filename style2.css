@@ -1,0 +1,144 @@
+/* <--- MOBILE FIRST ---> */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&family=Roboto:wght@300&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 16px;
+    --hero-section-bg: #F3EED9;
+    --custom-care-h2-color: #F3EED9;
+    --h1-quality-h2-color: #824936;
+    --care-div-bg: #824936;
+    --custom-div-bg: #222C2A;
+    --playfair: 'Playfair Display', serif;
+    --roboto: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: var(--roboto);
+}
+
+h1,
+h2 {
+    font-family: var(--playfair);
+    text-align: center;
+}
+
+h2 + div {
+    margin-top: 1em;
+}
+
+h2 + p {
+    margin-top: 1em;
+}
+
+h2 {
+    text-align: left;
+}
+
+img {
+    max-width: 100%;
+    margin: 1em 0;
+}
+
+.container {
+    padding: 2em;
+}
+
+/* <--- Hero Section Start ---> */
+
+.hero-section {
+    background-color: var(--hero-section-bg);
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section p {
+    letter-spacing: 0.6rem;
+    text-align: center;
+}
+
+.hero-section h1 {
+    color: var(--h1-quality-h2-color);
+    font-weight: 900;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* <--- Hero Section End ---> */
+
+/* <--- Quality Designs div Start ---> */
+
+.quality-designs {
+    padding: 5em 2em;
+}
+
+.quality-designs h2 {
+    color: var(--h1-quality-h2-color);
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+p + p {
+    margin-top: 1em;
+}
+
+/* <--- Quality Designs div End ---> */
+
+/* <--- Custom div Start ---> */
+
+.custom-div {
+    background-color: var(--custom-div-bg);
+    color: white;
+}
+
+.custom-div h2 {
+    color: var(--custom-care-h2-color);
+}
+
+/* <--- Custom div End ---> */
+
+/* <--- Care div Start ---> */
+
+.care-div {
+    background-color: var(--care-div-bg);
+    color: white;
+}
+
+.care-div h2 {
+    color: var(--custom-care-h2-color);
+    margin-bottom: 0.5em;
+}
+
+/* <--- Care div End ---> */
+
+/* <--- Media Queries Start ---> */
+
+@media (min-width: 703px) {
+    .flex-container {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 904px;
+    }
+
+    .quality-designs p + p {
+        margin-left: 1em;
+    }
+
+    .h2-p--container {
+        margin: 1em;
+        align-self: flex-start;
+    }
+}
+
+/* <--- Media Queries End ---> */
+
+/* <--- Temp ---> */

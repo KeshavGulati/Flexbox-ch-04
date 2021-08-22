@@ -1,0 +1,130 @@
+/* <--- DESKTOP FIRST ---> */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300;400&display=swap');
+
+:root {
+    font-size: 16px;
+    --hero-section-bg: #F3EED9;
+    --custom-care-h2-color: #F3EED9;
+    --h1-quality-h2-color: #824936;
+    --care-div-bg: #824936;
+    --custom-div-bg: #222C2A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+}
+
+h1,
+h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+.container {
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+/* <--- Hero Section Start ---> */
+
+.hero-section {
+    background-color: var(--hero-section-bg);
+    padding: 7em;
+    text-align: center;
+}
+
+h1 {
+    color: var(--h1-quality-h2-color);
+}
+
+img {
+    max-width: 40vw;
+    height: auto;
+}
+
+/* <--- Hero Section End ---> */
+
+/* <--- Quality Designs div Start ---> */
+
+.quality-designs {
+    padding: 3em 5em 5em 5em;
+}
+
+.quality-designs h2 {
+    margin-bottom: 1em;
+    text-align: center;
+    color: var(--h1-quality-h2-color);
+}
+
+.para-container {
+    display: flex;
+}
+
+/* <--- Quality Designs div Start ---> */
+
+/* <--- Custom div Start ---> */
+
+.custom-div {
+    padding: 3em 5em;
+    background-color: var(--custom-div-bg);
+    color: white;
+}
+
+.custom-div h2 {
+    color: var(--custom-care-h2-color);
+}
+
+.custom-div__container {
+    display: flex;
+}
+
+.custom-div p {
+    margin: 1em 1em 0 0;
+}
+
+/* <--- Custom div End ---> */
+
+/* <--- Care div Start ---> */
+
+.care-div {
+    padding: 3em 5em;
+    background-color: var(--care-div-bg);
+    color: white;
+}
+
+.care-div__container {
+    display: flex;
+}
+
+.h2-p--container {
+    margin: 1em 0 0 1em;
+}
+
+.h2-p--container h2 {
+    margin-bottom: 0.5em;
+    color: var(--custom-care-h2-color);
+}
+
+/* <--- Temp ---> */
+
+/*
+.hero-section {
+    border: 2px solid black;
+}
+*/
+/*
+.quality-designs h2 {
+    border: 2px solid black;
+}
+*/
+
+.custom-div {
+    border: 2px solid black;
+}
